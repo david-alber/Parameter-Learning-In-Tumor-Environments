@@ -1,5 +1,5 @@
 # Parameter-Learning-In-Tumor-Environments
-This work provides a data driven approach to learn the key parameters that are guiding the spacial organisation of the tumor environment. A method to learn a parameter set of manageable size from pathological images is presented. This set of connectivity parameters is used as input for a generative model. The goal is to generate a pattern configuration from a simulation, which represents the macroscopic key features of the original pathological image, to identify key principles of the cellular organisation and to quantify the interaction strength that is responsible for the resulting organisation.
+This work provides a data driven approach to learn the key parameters that are guiding the spatial organization of the tumor environment. A method to learn a parameter set of manageable size from pathological images is presented. This set of connectivity parameters is used as input for a generative model. The goal is to generate a pattern configuration from a simulation, which represents the macroscopic key features of the original pathological image, to identify key principles of the cellular organization and to quantify the interaction strength that is responsible for the resulting organisation.
 
 Keywords: Tumor Biology, Cellular Potts Model, Parameter Inference, Maximum Pseudo Likelihood, Monte Carlo Optimisation
 
