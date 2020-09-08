@@ -27,7 +27,7 @@ cell_data = cell_data.to_numpy(); cell_data = cell_data.astype(float)
 #%% Set Parameters
 #--Simulation specific Parameters
 patient = 4
-depiction = 'General' #'Detailed'; 'Grained'
+depiction = 'General' #'Detailed'; 'Grained'; 
 cellTypes_orig = [len(cellTypes_General)]
 limiter = False
 runs = 1 #number of optimisations for every sample
@@ -46,7 +46,7 @@ TT_dec = TT_enc #MPL decoding temperature
 :-------------------------:|:-------------------------:|:-------------------------:
  <img src="https://github.com/david-alber/Parameter-Learning-In-Tumor-Environments/blob/master/Images/p12ComGeneral.png" width="400" height="350" />  |  <img src="https://github.com/david-alber/Parameter-Learning-In-Tumor-Environments/blob/master/Images/p12ComGrained.png" width="400" height="350" /> |  <img src="https://github.com/david-alber/Parameter-Learning-In-Tumor-Environments/blob/master/Images/p12ComDetailed.png" width="400" height="350" />  
  
-Projection of the high dimensional gene- expression tumorsamples onto the first two principle components. The three vertexpoints/ archetypes highlighted correspond to distinct features andspan the triangle of the pareto front, such that all points within canbe explained as convex combinations of the vertices.
+Setting the parameter depiction to 'General', 'Grained', 'Detaild' processes the data to a pathological image with finer subdivision of different cell types.
 
 ### Pathological Image - Simulated Configuration
  
@@ -54,7 +54,7 @@ Projection of the high dimensional gene- expression tumorsamples onto the first 
 :-------------------------:|:-------------------------:
  <img src="https://github.com/david-alber/Parameter-Learning-In-Tumor-Environments/blob/master/Images/pathoP4General.png" width="400" height="320" />  |  <img src="https://github.com/david-alber/Parameter-Learning-In-Tumor-Environments/blob/master/Images/configP4General.png" width="400" height="320" />
  
-Projection of the high dimensional gene- expression tumorsamples onto the first two principle components. The three vertexpoints/ archetypes highlighted correspond to distinct features andspan the triangle of the pareto front, such that all points within canbe explained as convex combinations of the vertices.
+A tissue sample of the tumor environment of patient 4 (compartemntalized type) is analysed: The image data is used to infer a parameter set of inter cellular connectivities that most likely is responsible for guiding the pattern formation at hand. The infered parameterset is the imput for the tumor generating model, which simulates a tumor environment, according to the previous analysis of maximum pseudo likelihood inference.
 
 
 ### How to contribute
