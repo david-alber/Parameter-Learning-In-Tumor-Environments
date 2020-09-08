@@ -44,7 +44,7 @@ TT_dec = TT_enc #MPL decoding temperature
  
   General | Grained | Detailed  
 :-------------------------:|:-------------------------:|:-------------------------:
- <img src="https://github.com/david-alber/Parameter-Learning-In-Tumor-Environments/blob/master/Images/p12ComGeneral.png" width="320" height="300" />  |  <img src="https://github.com/david-alber/Parameter-Learning-In-Tumor-Environments/blob/master/Images/p12ComGrained.png" width="320" height="300" /> |  <img src="https://github.com/david-alber/Parameter-Learning-In-Tumor-Environments/blob/master/Images/p12ComDetailed.png" width="320" height="300" />  
+ <img src="https://github.com/david-alber/Parameter-Learning-In-Tumor-Environments/blob/master/Images/p12ComGeneral.png" width="400" height="350" />  |  <img src="https://github.com/david-alber/Parameter-Learning-In-Tumor-Environments/blob/master/Images/p12ComGrained.png" width="400" height="350" /> |  <img src="https://github.com/david-alber/Parameter-Learning-In-Tumor-Environments/blob/master/Images/p12ComDetailed.png" width="400" height="350" />  
  
 Projection of the high dimensional gene- expression tumorsamples onto the first two principle components. The three vertexpoints/ archetypes highlighted correspond to distinct features andspan the triangle of the pareto front, such that all points within canbe explained as convex combinations of the vertices.
 
