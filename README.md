@@ -56,6 +56,9 @@ Setting the parameter depiction to 'General', 'Grained', 'Detaild' processes the
  
 A tissue sample of the tumor environment of patient 4 (compartemntalized type) is analysed: The image data is used to infer a parameter set of inter cellular connectivities that most likely is responsible for guiding the pattern formation at hand. The infered parameterset is the imput for the tumor generating model, which simulates a tumor environment, according to the previous analysis of maximum pseudo likelihood inference.
 
+### Comments
+For legal reasons the data files, which were used for the analysis and the simulations, cannot be shared publically. Please get in touch with me if you are interested in the data that drives the presented results.
+
 
 ### How to contribute
 Fork from the `Developer`- branch and pull request to merge back into the original `Developer`- branch. 
